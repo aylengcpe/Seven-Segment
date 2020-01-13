@@ -43,7 +43,7 @@ Partial Class Form1
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(150, 50)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button A"
+        Me.Button1.Text = "A"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'Button2
@@ -55,7 +55,7 @@ Partial Class Form1
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(50, 150)
         Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Button B"
+        Me.Button2.Text = "B"
         Me.Button2.UseVisualStyleBackColor = False
         '
         'Button3
@@ -67,7 +67,7 @@ Partial Class Form1
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(50, 150)
         Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Button C"
+        Me.Button3.Text = "C"
         Me.Button3.UseVisualStyleBackColor = False
         '
         'Button4
@@ -79,7 +79,7 @@ Partial Class Form1
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(150, 50)
         Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Button D"
+        Me.Button4.Text = "D"
         Me.Button4.UseVisualStyleBackColor = False
         '
         'Button5
@@ -91,7 +91,7 @@ Partial Class Form1
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(50, 150)
         Me.Button5.TabIndex = 4
-        Me.Button5.Text = "Button E"
+        Me.Button5.Text = "E"
         Me.Button5.UseVisualStyleBackColor = False
         '
         'Button6
@@ -103,7 +103,7 @@ Partial Class Form1
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(50, 150)
         Me.Button6.TabIndex = 5
-        Me.Button6.Text = "Button F"
+        Me.Button6.Text = "F"
         Me.Button6.UseVisualStyleBackColor = False
         '
         'Button7
@@ -115,7 +115,7 @@ Partial Class Form1
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(150, 50)
         Me.Button7.TabIndex = 6
-        Me.Button7.Text = "Button G"
+        Me.Button7.Text = "G"
         Me.Button7.UseVisualStyleBackColor = False
         '
         'Timer
