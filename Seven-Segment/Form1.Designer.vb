@@ -146,6 +146,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
+        Me.MaximizeBox = False
         Me.Name = "Form1"
         Me.ShowIcon = False
         Me.Text = "Seven Segment"

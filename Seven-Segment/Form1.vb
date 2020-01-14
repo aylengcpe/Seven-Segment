@@ -1,9 +1,25 @@
 ﻿Public Class Form1
+
     Private Sub Timer_Tick(sender As Object, e As EventArgs) Handles Timer.Tick
-        If monitor.Text <= 8 Then
-            monitor.Text = monitor.Text + 1
+
+        Dim i As Integer
+        'If monitor.Text <= 8 Then
+        '    monitor.Text = monitor.Text + 1
+
+
+        monitor.Text = monitor.Text + 1
+
+        If monitor.Text = 10 Then
+            i = monitor.Text
+            monitor.Text = i - 10
+
 
         End If
+
+
+
+
+
 
 
     End Sub
@@ -118,6 +134,7 @@
             Button4.BackColor = Color.HotPink
             Button5.BackColor = Color.HotPink
             Button6.BackColor = Color.HotPink
+            Button7.BackColor = Color.LightGray
 
         ElseIf monitor.Text = 1 Then
 
@@ -125,10 +142,15 @@
             Button4.BackColor = Color.LightGray
             Button5.BackColor = Color.LightGray
             Button6.BackColor = Color.LightGray
+            Button2.BackColor = Color.HotPink
+            Button3.BackColor = Color.HotPink
+            Button7.BackColor = Color.LightGray
 
         ElseIf monitor.Text = 2 Then
 
             Button1.BackColor = Color.HotPink
+            Button2.BackColor = Color.HotPink
+            Button6.BackColor = Color.LightGray
             Button7.BackColor = Color.HotPink
             Button5.BackColor = Color.HotPink
             Button4.BackColor = Color.HotPink
@@ -136,34 +158,48 @@
 
         ElseIf monitor.Text = 3 Then
 
+            Button1.BackColor = Color.HotPink
             Button2.BackColor = Color.HotPink
             Button3.BackColor = Color.HotPink
+            Button4.BackColor = Color.HotPink
+            Button7.BackColor = Color.HotPink
             Button5.BackColor = Color.LightGray
+            Button6.BackColor = Color.LightGray
 
         ElseIf monitor.Text = 4 Then
 
+            Button1.BackColor = Color.HotPink
             Button2.BackColor = Color.HotPink
             Button3.BackColor = Color.HotPink
             Button7.BackColor = Color.HotPink
             Button6.BackColor = Color.HotPink
             Button1.BackColor = Color.LightGray
             Button4.BackColor = Color.LightGray
+            Button5.BackColor = Color.LightGray
 
         ElseIf monitor.Text = 5 Then
 
             Button1.BackColor = Color.HotPink
+            Button3.BackColor = Color.HotPink
             Button4.BackColor = Color.HotPink
+            Button6.BackColor = Color.HotPink
+            Button7.BackColor = Color.HotPink
             Button2.BackColor = Color.LightGray
+            Button5.BackColor = Color.LightGray
 
         ElseIf monitor.Text = 6 Then
 
             Button1.BackColor = Color.HotPink
+            Button3.BackColor = Color.HotPink
             Button4.BackColor = Color.HotPink
             Button5.BackColor = Color.HotPink
+            Button6.BackColor = Color.HotPink
+            Button7.BackColor = Color.HotPink
             Button2.BackColor = Color.LightGray
 
         ElseIf monitor.Text = 7 Then
 
+            Button1.BackColor = Color.HotPink
             Button2.BackColor = Color.HotPink
             Button3.BackColor = Color.HotPink
             Button6.BackColor = Color.LightGray
@@ -174,10 +210,13 @@
         ElseIf monitor.Text = 8 Then
 
             Button1.BackColor = Color.HotPink
+            Button2.BackColor = Color.HotPink
+            Button3.BackColor = Color.HotPink
+            Button4.BackColor = Color.HotPink
             Button6.BackColor = Color.HotPink
             Button5.BackColor = Color.HotPink
             Button7.BackColor = Color.HotPink
-            Button4.BackColor = Color.HotPink
+
 
         Else
 
@@ -192,6 +231,11 @@
 
         End If
 
+
+
+    End Sub
+
+    Private Sub monitor_Click(sender As Object, e As EventArgs) Handles monitor.Click
 
     End Sub
 End Class
